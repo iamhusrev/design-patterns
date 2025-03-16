@@ -1,4 +1,4 @@
-package _1_behavioral_patterns.momento;
+package behavioralPatterns.momento;
 
 
 import lombok.Getter;

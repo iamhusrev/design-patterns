@@ -1,4 +1,4 @@
-package _1_behavioral_patterns.momento;
+package behavioralPatterns.momento;
 
 public class SolutionDemo {
 
@@ -7,16 +7,16 @@ public class SolutionDemo {
         History history = new History();
 
         editor.setContent("Version 1");
-        history.addMemento(editor.save());
+        history.push(editor.save());
 
         editor.setContent("Version 2");
-        history.addMemento(editor.save());
+        history.push(editor.save());
 
         editor.setContent("Version 3");
 
         System.out.println("Content: " + editor.getContent());
 
-        editor.restore(history.getMemento(1));
+        editor.restore(history.pop( ));
         System.out.println("Undo Content To: " + editor.getContent());
     }
 }
