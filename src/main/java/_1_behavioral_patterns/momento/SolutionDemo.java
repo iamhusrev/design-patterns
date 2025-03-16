@@ -16,7 +16,7 @@ public class SolutionDemo {
 
         System.out.println("Content: " + editor.getContent());
 
-        editor.restore(history.getMemento(0));
+        editor.restore(history.getMemento(1));
         System.out.println("Undo Content To: " + editor.getContent());
     }
 }

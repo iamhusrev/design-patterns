@@ -6,6 +6,6 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public class Memento {
+public class EditorState {
     private final String state;
 }

@@ -9,11 +9,11 @@ import lombok.Setter;
 public class TextEditor {
     private String content;
 
-    public Memento save() {
-        return new Memento(content);
+    public EditorState save() {
+        return new EditorState(content);
     }
 
-    public void restore(Memento memento) {
-        this.content = memento.getState();
+    public void restore(EditorState editorState) {
+        this.content = editorState.getState();
     }
 }

@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 class History {
-    private final List<Memento> history = new ArrayList<>();
+    private final List<EditorState> history = new ArrayList<>();
 
-    public void addMemento(Memento memento) {
-        history.add(memento);
+    public void addMemento(EditorState editorState) {
+        history.add(editorState);
     }
 
-    public Memento getMemento(int index) {
+    public EditorState getMemento(int index) {
         return history.get(index);
     }
 }
