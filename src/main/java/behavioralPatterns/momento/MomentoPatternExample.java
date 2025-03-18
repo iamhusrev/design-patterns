@@ -1,6 +1,6 @@
 package behavioralPatterns.momento;
 
-public class SolutionDemo {
+public class MomentoPatternExample {
 
     public static void main(String[] args) {
         TextEditor editor = new TextEditor();

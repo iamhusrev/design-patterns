@@ -2,7 +2,7 @@ package behavioralPatterns.command;
 
 import behavioralPatterns.command.fx.Button;
 
-public class Main {
+public class CommandPatternExample {
 
     public static void main(String[] args) {
 

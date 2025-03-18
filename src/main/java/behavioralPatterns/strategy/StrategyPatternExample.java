@@ -1,7 +1,7 @@
 package behavioralPatterns.strategy;
 
 
-public class SolutionDemo {
+public class StrategyPatternExample {
 
     public static void main(String[] args) {
 

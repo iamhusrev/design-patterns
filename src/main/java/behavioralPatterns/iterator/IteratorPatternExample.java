@@ -1,6 +1,6 @@
 package behavioralPatterns.iterator;
 
-public class SolutionDemo {
+public class IteratorPatternExample {
 
     public static void main(String[] args) {
         var history = new BrowseHistory();

@@ -1,6 +1,6 @@
 package behavioralPatterns.observer;
 
-public class Main {
+public class ObserverPatternExample {
     public static void main(String[] args) {
         var dataSource = new DataSource();
         var sheet1 = new SpreadSheet(dataSource);

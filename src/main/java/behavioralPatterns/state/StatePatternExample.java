@@ -1,7 +1,7 @@
 package behavioralPatterns.state;
 
 
-public class SolutionDemo {
+public class StatePatternExample {
 
     public static void main(String[] args) {
 

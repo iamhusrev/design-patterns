@@ -1,7 +1,7 @@
 package behavioralPatterns.template;
 
 
-public class SolutionDemo {
+public class TemplatePatternExample {
 
     public static void main(String[] args) {
         System.out.println("☕ Kahve hazırlanıyor:");
