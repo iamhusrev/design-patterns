@@ -1,7 +1,7 @@
 package _3_creational_patterns._1_prototype_pattern;
 
 public class ContextMenu {
-    private Timeline timeline;
+    private final Timeline timeline;
 
     public ContextMenu(Timeline timeline) {
         this.timeline = timeline;

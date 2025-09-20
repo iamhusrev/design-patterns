@@ -2,8 +2,8 @@ package _1_behavioral_pattern._6_command_pattern.editor;
 
 public class BoldCommand implements UndoableCommand {
     private String prevContent;
-    private HtmlDocument document;
-    private History history;
+    private final HtmlDocument document;
+    private final History history;
 
     public BoldCommand(HtmlDocument document, History history) {
         this.document = document;

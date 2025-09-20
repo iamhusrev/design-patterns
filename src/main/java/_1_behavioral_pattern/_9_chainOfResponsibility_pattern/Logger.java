@@ -1,7 +1,7 @@
 package _1_behavioral_pattern._9_chainOfResponsibility_pattern;
 
 public class Logger extends Handler {
-      public Logger(Handler nextHandler) {
+    public Logger(Handler nextHandler) {
         super(nextHandler);
     }
 

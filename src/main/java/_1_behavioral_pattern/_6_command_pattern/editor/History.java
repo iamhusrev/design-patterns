@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class History {
-    private Deque<UndoableCommand> commands = new ArrayDeque<>();
+    private final Deque<UndoableCommand> commands = new ArrayDeque<>();
 
     public void push(UndoableCommand command) {
         commands.add(command);

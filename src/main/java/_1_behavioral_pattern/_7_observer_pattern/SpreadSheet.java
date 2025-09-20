@@ -2,7 +2,7 @@ package _1_behavioral_pattern._7_observer_pattern;
 
 public class SpreadSheet implements Observer {
 
-    private DataSource dataSource;
+    private final DataSource dataSource;
 
     public SpreadSheet(DataSource dataSource) {
         this.dataSource = dataSource;

@@ -1,8 +1,5 @@
 package _3_creational_patterns._2_singleton_pattern;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class Demo {
 
     public static void main(String[] args) {

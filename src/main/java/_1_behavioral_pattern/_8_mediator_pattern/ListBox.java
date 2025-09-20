@@ -15,6 +15,6 @@ public class ListBox extends UIControl {
 
     public void setSelection(String selection) {
         this.selection = selection;
-        owner.changed(this );
+        owner.changed(this);
     }
 }

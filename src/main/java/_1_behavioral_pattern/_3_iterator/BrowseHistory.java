@@ -48,7 +48,7 @@ public class BrowseHistory {
 
         @Override
         public String currentItem() {
-            return  history.urls.get(index);
+            return history.urls.get(index);
         }
     }
 

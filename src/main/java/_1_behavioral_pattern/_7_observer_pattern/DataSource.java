@@ -6,9 +6,8 @@ import lombok.Getter;
 
 @Getter
 public class DataSource implements Subject {
-    private int value;
-
     private final List<Observer> observers = new ArrayList<>();
+    private int value;
 
     @Override
     public void addObserver(Observer observer) {

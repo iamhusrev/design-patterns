@@ -13,7 +13,7 @@ public class ArticlesDialogBox extends DialogBox {
 
     public void simulateUserInteraction() {
         articlesListBox.setSelection("Article 1");
-         System.out.println("TextBox: " + titleTextBox.getContent());
+        System.out.println("TextBox: " + titleTextBox.getContent());
         System.out.println("Button: " + saveButton.isEnabled());
         System.out.println();
 

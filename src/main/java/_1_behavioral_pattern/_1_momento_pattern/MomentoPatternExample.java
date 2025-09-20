@@ -16,7 +16,7 @@ public class MomentoPatternExample {
 
         System.out.println("Content: " + editor.getContent());
 
-        editor.restore(history.pop( ));
+        editor.restore(history.pop());
         System.out.println("Undo Content To: " + editor.getContent());
     }
 }
